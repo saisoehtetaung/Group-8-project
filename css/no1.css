@@ -1,0 +1,20 @@
+body{
+    background: radial-gradient(rgba(17, 17, 17,0.9),gray,white,rgb(202, 172, 172),rgba(243, 5, 5, 0.8));
+}
+button{
+    width: 200px;
+    height: 30px;
+    border-width: 2px;
+    font-size: 20px;
+    margin-right: 30px;
+}
+input{
+    width:300px;
+    height:40px;
+    border-width: 2px;
+    font-size: 20px;
+}
+span{
+    font-size: 50px;
+}
+

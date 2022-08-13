@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap'); 
+body{
+	font-size: 16px;
+	font-weight: bold;
+	background: linear-gradient(-18deg,rgba(17, 17, 17,0.9),gray,rgb(202, 172, 172),rgba(243, 5, 5, 0.8));
+}
+form{
+	width: 40%;
+	height: 1100px;
+	border: 1px solid black;
+	border-radius: 20px;
+	background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+i{
+	color:blue;
+	font-weight: bold;
+	font-size: 18px;
+}
+h1{
+	color: blueviolet;
+	text-shadow: 
+	0.025em 0.025em 0 blue,
+	0.05em 0.05em 0 white,
+	0.075em 0.075em 0 blue,
+	0.1em 0.1em 0 blue;
+}
+label{
+	padding: 8px;	
+	line-height: 40px;
+	font-size: 18px;
+	font-style: italic;
+	text-decoration: underline;
+}
+input[type="text"],input[type="email"],input[type="number"],
+input[type="month"],input[type="year"]{
+	width: 100%;
+	height: 30px;
+	padding: 8px;	
+	line-height: 40px; 
+	border-radius: 15px;
+	outline: none;
+}
+input[type="submit"],input[type="reset"]{
+	width: 40%;
+	padding: 8px;
+	border-radius: 15px;
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+	font-size: 20px;
+	transition: 0.2s;
+	background-color: yellow;
+	color: blue;
+}
+input{
+	color:yellow;
+	font-weight: bold;
+	background-color:#9F54E5;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 18px;
+}
+select{
+	color: blue;
+	background-color: #FFFF33;
+	outline: none;
+	border-radius: 10px;
+	border: 1px solid black;
+	height: 40px;
+}
+.back1{
+    float:left;
+}
+
+.back2{
+    margin-bottom: 20px;
+    padding-right: 20px;
+    float: right;
+}
+.back1 a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(216, 44, 44);
+    background-color: rgb(255, 250, 251);
+    border: 3px outset rgba(83, 82, 82,0.8);
+    border-radius: 0 40px 40px 0;
+    padding: 5px 20px;
+    position:absolute;
+    top: 20px;
+    left:10px;
+}
+.back2 a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(216, 44, 44);
+    background-color: rgb(255, 250, 251);
+
+    
+    border: 3px outset rgba(83, 82, 82,0.8);
+    border-radius: 40px 0 0 40px;
+    padding: 5px 20px;
+
+    cursor: pointer;
+    position:absolute;
+
+    top: 20px;
+    right: 10px;
+}
+

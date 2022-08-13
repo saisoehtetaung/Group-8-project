@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+ /*local integrate */
+@font-face{        
+    font-family: 'san';
+    src:local('akayatelivigala-Regular.ttf'), url('../libs/fonts/akaya/akayatelivigala-Regular.ttf') format('woff');
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+
+body{
+    width:98%;
+    background: linear-gradient(10deg,rgb(17, 17, 17),rgb(226, 14, 14));
+    height: 100vh;
+}
+
+/* logo */
+.icon , span{
+    font-size: 25px;
+    font-family: 'san';  
+    color: rgba(215, 218, 19, 0.932);  
+    
+}
+/* nav */
+.nav-bar{
+    display: inline-block;
+    margin:15px 0;
+    margin-left: 300px;
+    padding: 0 auto;    
+}
+
+.nav-bar>a{
+    width: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20%;
+    display: inline-block;
+    background-color: rgba(14, 12, 12, 0.767);
+    COLOR:#fff;
+    padding: 10px;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+
+.nav-bar>a:hover{
+    width: 90px;
+    box-shadow: 3px 3px 20px #1e05fc; 
+    background-color: rgb(255, 230, 0);
+    color: red; 
+}
+
+.login>a{
+    width: 50px;
+    height:35px;
+    border-radius: 50%;
+    background-color: rgba(248, 248, 248, 0.671);
+    display: inline-block;
+    text-decoration:none;
+    text-align: center;
+    font-size: 15px;
+    padding-top:13px;
+    margin-left: 100px;
+}
+.login a:hover{
+    border-radius: 30%;
+    background-color: rgb(255, 230, 0);
+}
+
+/* background-Image */
+.container img{
+    position: relative;
+}
+.img{
+    width:98%;
+    height:550px;
+    margin:0 20px;
+    opacity: 0.85;
+}
+/* Music List */
+.container{
+    position:relative;
+}
+
+.mlist{
+    line-height: 20px;
+    position:absolute;
+    top: 30px;
+    left: 89%;
+}
+
+.mlist li{
+    width:38px;
+    height:38px;
+    line-height:38px;
+    background: radial-gradient(rgba(211, 33, 33, 0.747),rgba(106, 84, 235, 0.438)), url(./../imgs/Rockband.jpeg);
+    color:rgb(191, 240, 178);
+    border-radius: 50%;
+    padding:13px;
+    margin-top:25px;
+    text-align:center;
+    cursor:pointer;
+    font-size: 13px;
+}
+
+/* Music Container */
+.container-box > h3{
+    width: 450px;
+    position:absolute;
+    top:-2%;;
+    left:35px;
+    text-shadow: 5px -5px 10px rgb(205, 240, 9);
+    color:rgb(248, 253, 196);
+    font-family:'Permanent Marker', cursive;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.container-box img{
+    width: 150px;
+    height: 170px;
+}
+
+.container-box div{
+    display: inline-block;
+    position: absolute;
+    border-radius: 10px; 
+    color:silver;   
+    opacity: 0.95;
+    
+}
+.pop, .rnb, .rockb, .cmusic{
+    background-color: rgba(3, 3, 3, 0.849);  
+    display: inline-block;
+}
+
+/* POP */
+.pop{
+    width:520px;
+    height:180px;
+    margin-top:5px;
+    top:70px;
+    left:40px;
+}
+
+.div-pop{ 
+    width: 350px;
+    height: 190px;
+}
+
+.pop1{ 
+    margin-top: 0;
+    text-align: justify;
+    padding: 2px 3px;
+}
+
+/* R&B */
+.rnb{
+    width:520px;
+    height:180px;
+    margin-top:53px;
+    top:20px;
+    left:45%;
+}
+
+.div-rnb{
+    width: 350px;
+    height:230px;
+    padding: 1px 0;
+     
+}
+
+.rnb .rnb1{
+    height: 200px;
+    margin-top: 0;
+    text-align: justify;
+    padding: 2px 3px;
+}
+
+/* rock */
+.rockb{
+    width:485px;
+    height:198px;
+    top: 280px;
+    left:56px; 
+}
+
+.rockb img, .cmusic img{
+    width:152px;
+    height: 190px;   
+}
+
+
+.div-rb{  
+    width:295px;
+    height:203px;
+    padding-left:5px;
+   
+}
+.rockb .rockb1, .cmusic .cmusic1{
+    height:200px;
+    margin-top:0;
+    text-align: justify;
+}
+
+/* cmusic */
+.cmusic{
+    width:485px;
+    height:198px;
+    top: 282px;
+    left: 46%;
+}
+
+.div-cm{
+    width:295px;
+    height:203px;
+    padding: 2px 3px;
+}
+
+/* Footer */
+.ficon{
+    width:59%;
+    height: 60px;
+    top:87%;
+    left:30%;
+    height:55px;
+    display: inline-block;
+    margin-top: 3px; 
+}
+
+.ficon1 i{
+    padding:18px;
+    margin-left:50px;
+    font-size: 15px;
+    box-sizing: border-box;
+    color:rgb(230, 225, 247);
+    border:1px solid rgb(238, 181, 160);
+    background-color: rgba(220, 20, 60, 0.9);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.ficon1 i:hover{
+    border:none;
+    background-color: rgba(255, 255, 255, 0.301);
+    color:black;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+

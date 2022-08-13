@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Poutube</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<!-- <link href="library/fontawesomepro/css/all.min.css" rel="stylesheet" type="stylesheet"/> -->
+		<link href="../css/paymentform.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div class="back1"><a href="./pricecomparison.html" >Back</a></div>
+        <div class="back2"><a href="./main.html" >Go Home</a></div>
+	<center>
+		<form>
+			<table>
+				<tr>
+					<td><h1 align="center"><u>Payment Details</u></h1></td>
+				</tr>
+				<!-- Payer Name -->
+				<tr>
+					<td>
+						<label for="pname">Payer Name</label><i class="fas fa-user-tie"></i>
+						<input type="text" name="pname" id="pname" class="" placeholder="eg.John" required>
+					</td>
+				</tr>
+				<!-- Payer Email -->
+				<tr>
+					<td>
+						<label for="pemail">Email</label><i class="fas fa-paper-plane"></i>
+						<input type="email" name="pemail" id="pemail" class="" 
+						placeholder="john@example.com" required>
+					</td>
+				</tr>
+				<!-- NCR No. -->
+				<tr>
+					<td>
+						<label for="pnrc">NRC Number</label><i class="fas fa-address-card"></i>
+						<input type="text" name="pnrc" id="pnrc" class="" 
+						placeholder="၁/တကန(နိုင်)xxxx" required>
+					</td>
+				</tr>
+				<!-- Choose Card -->
+				<tr>
+					<td>
+						<label>Choose Bank Card</label><i class="far fa-id-card"></i>
+						<br/>
+						<input type="radio" name="pcard" id="card_A" class="" checked>
+						<label for="card_A">Ayawady Bank</label>
+						<input type="radio" name="pcard" id="card_C" class="">
+						<label for="card_C">CB Bank</label>
+						<input type="radio" name="pcard" id="card_Y" class="">
+						<label for="card_Y">Yoma Bank</label>
+					</td>
+				</tr>
+				<!-- Payer Card Number -->
+				<tr>
+					<td>
+						<label for="cardnum">Card Number</label><i class="fas fa-list-ol"></i>
+						<input type="number" name="cardnum" id="cardnum" class="" 
+						placeholder="1111-2222-3333-4444" required>
+					</td>
+				</tr>
+				<!-- Payer Card Expier Month -->
+				<tr>
+					<td>
+						<label for="card_emonth">Card Expire Month</label>
+						<input type="month" name="card_emonth" id="card_emonth" class="" 
+						placeholder="MM" required>
+					</td>
+				</tr>
+				<!-- Payer Card Expire Year -->
+				<tr>
+					<td>
+						<label for="card_eyear">Card Expire Year</label>
+						<input type="year" name="card_eyear" id="card_eyear" class="" 
+						placeholder="yyyy" minlength="4" maxlength="4" required> 
+					</td>
+				</tr>
+				<!-- Payer CVC Name -->
+				<tr>
+					<td>
+						<label for="cvcname">CVC Name</label><i class="fas fa-address-card"></i>
+						<input type="text" name="cvcname" id="cvcname" class="" placeholder="cvc" required>
+					</td>
+				</tr>
+				<!-- Choose State -->
+				<tr>
+					<td align="right">
+						<br/>
+						<i class="fas fa-globe"></i>
+						<select align="center" required>
+							<option selected disabled>Choose State</option>
+							<option>Kachin State (မြစ်ကြီးနား)</option>
+							<option>Kayah State (လွိုင်ကော်)</option>
+							<option>Kayin State (ဖားအံ)</option>
+							<option>Chin State (ဟားခါး)</option>
+							<option>Mon State (မော်လမြိုင်)</option>
+							<option>Rakhine State (စစ်တွေ)</option>
+							<option>Shan State (တောင်ကြီး)</option>
+							<option>Ayeyarwady Region(ပုသိမ်) </option>
+							<option>Bago Region(ပဲခူး)</option>
+							<option>Magway Region(မကွေး)</option>
+							<option>Mandalay Region(မန္တလေး) </option>
+							<option>Sagaing Region(စစ်ကိုင်း) </option>
+							<option>Tanintharyi Region(ထားဝယ်) </option>
+							<option>Yangon Region(ရန်ကုန်) </option>
+						</select>
+					</td>
+				</tr>
+				<!-- Postal Code -->
+				<tr>
+					<td>
+						<label for="zipcode">Postal Code (Zip Code)</label><i class="fas fa-qrcode"></i>
+						<input type="number" name="zipcode" id="zipcode" class="" maxlength="5" placeholder="10001"
+						required>
+					</td>
+				</tr>
+				<!-- Buttons -->
+				<tr>
+					<td align="right">
+						<br/><br/>
+						<input type="reset" value="Cancel"> 
+						<input type="submit" value="Paynow">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</center>
+	</body>
+</html>

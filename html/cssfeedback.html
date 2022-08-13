@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poutube</title>
+	<link href="./../css/feedback.css" rel="stylesheet" type="text/css"/>
+	<link href="../libs/fontawesomepro/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+	<div class="div1">
+		<div class="back1"><a href="./main.html" >Back</a></div>
+	 	<h1><i class="fas fa-compact-disc icon"></i>Poutube</h1>
+		 <div class="back2"><a href="./main.html" >Go Home</a></div>
+	</div>
+	<div class="container" align="center">
+		<form action="" method="" >
+			<h2>Customer FeedBack</h2><hr/>
+			<table border="0" class="feedback">
+				<tr>
+					<td colspan="4">
+						<label><b>How do you rate your overall experience?</b></label><br/>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="4">
+						<input type="radio" name="feedback" id="rdbad" class="" value="1"/><label for="rdbad">Bad</label>
+						<input type="radio" name="feedback" id="rdaverage" class="" value="2"/><label for="rdaverage">Average<label>
+						<input type="radio" name="feedback" id="rdgood" class="" value="3"/><label for="rdgood">Good</label>       
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="4">
+						<label>-----------------------------------------------------------------------------------------------------------------------------------------------------</label><br/>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="2">
+						<label for="firstname">First Name*</label><br/><br/><input type="text" name="firstname" id="firstname" class="textbox" maxlength="10" placeholder="Enter your firstname" required/>
+					</td>
+					<td colspan="2">
+						<label for="lastname">Last Name*</label><br/><br/><input type="text" name="lastname" id="lastname" class="textbox" maxlength="15" placeholder="Enter your lastname" required/>
+					</td>
+
+				</tr>
+				<tr>
+					<td colspan="2">
+						<label for="email">Email*</label><br/><br/><input type="email" name="email" id="email" class="textbox" placeholder="Enter your email" required/>
+					</td>
+					<td colspan="2">
+						<label for="country">Citizen*</label><br/><br/>
+						<select name="country" id="country" class="textbox" required>
+							<option selected disabled="">Choose your country</option>
+							<option value="mm">Myanmar</option>
+							<option value="jp">Japan</option>
+							<option value="kk">Korea</option>
+							<option value="usa">America</option>
+							<option value="uk">United Kingdom</option>
+							
+						</select>
+					</td>
+
+				</tr>
+
+			</table>
+
+			<div class="div2" align="left">
+				<h4>What kinds of music do you like?*</h4>
+				<input type="checkbox" name="check" id="checkpop" class="" value="1"/><label for="checkpop">Pop</label>
+				<input type="checkbox" name="check" id="checkrb" class="" value="2"/><label for="checkrb">Rhythm&Blues</label>
+				<input type="checkbox" name="check" id="checkrock" class="" value="3"/><label for="checkrock">Rock</label>
+				<input type="checkbox" name="check" id="checkclas" class="" value="4"/><label for="checkclas">Classic</label>
+				<input type="checkbox" name="check" id="checkchiphop" class="" value="4"/><label for="checkclas">Hip Hop</label>
+		    </div>
+
+		    <div class="div3" align="left">
+			    <h4>Suggestion*</h4>
+			    <textarea name="suggestion" id="suggestion" class="suggestion" rows="5" placeholder="Please write your suggestion here" required></textarea>
+		    </div>
+
+		    <div class="div4" align="left">
+		    	<button type="submit" name="submit" id="submit" class="submit">Submit</button>
+		    </div>
+				
+		</form>
+		
+	</div>
+
+</body>
+</html>
